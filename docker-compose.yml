@@ -13,9 +13,11 @@ services:
     build: .
     volumes:
       - .:/app
+      - bundle_cache:/usr/local/bundle
     ports:
       - "3000:3000"
     depends_on:
       - db
 volumes:
   mysql_data:
+  bundle_cache:
