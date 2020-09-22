@@ -1,0 +1,100 @@
+{
+  "TMCs": [
+    {
+      "Titulo": "Operaciones no reajustables en moneda nacional de menos de 90 días",
+      "SubTitulo": "Inferiores o iguales al equivalente de 5.000 unidades de fomento",
+      "Valor": "35.04",
+      "Fecha": "2020-08-14",
+      "Hasta": "2020-09-14",
+      "Tipo": "26"
+    },
+    {
+      "Titulo": "Operaciones no reajustables en moneda nacional de menos de 90 días",
+      "SubTitulo": "Superiores al equivalente de 5.000 unidades de fomento",
+      "Valor": "6.81",
+      "Fecha": "2020-08-14",
+      "Hasta": "2020-09-14",
+      "Tipo": "25"
+    },
+    {
+      "Titulo": "Operaciones no reajustables en moneda nacional 90 días o más",
+      "SubTitulo": "Inferiores o iguales al equivalente de 50 unidades de fomento",
+      "Valor": "33.8",
+      "Fecha": "2020-08-14",
+      "Hasta": "2020-09-14",
+      "Tipo": "45"
+    },
+    {
+      "Titulo": "Operaciones no reajustables en moneda nacional 90 días o más",
+      "SubTitulo": "Inferiores o iguales al equivalente de 200 unidades de fomento y superiores al equivalente de 50 unidades de fomento",
+      "Valor": "26.8",
+      "Fecha": "2020-08-14",
+      "Hasta": "2020-09-14",
+      "Tipo": "44"
+    },
+    {
+      "Titulo": "Operaciones no reajustables en moneda nacional 90 días o más",
+      "SubTitulo": "Inferiores o iguales al equivalente de 5.000 unidades de fomento y superiores al equivalente de 200 unidades de fomento",
+      "Valor": "19.2",
+      "Fecha": "2020-08-14",
+      "Hasta": "2020-09-14",
+      "Tipo": "35"
+    },
+    {
+      "Titulo": null,
+      "SubTitulo": "Operaciones cuyo mecanismo de pago consista en la deducción de las respectivas cuotas directamente de la pensión del deudor",
+      "Valor": "19.8",
+      "Fecha": "2020-08-14",
+      "Hasta": "2020-09-14",
+      "Tipo": "43"
+    },
+    {
+      "Titulo": "Operaciones reajustables en moneda nacional",
+      "SubTitulo": "Menores a un año",
+      "Valor": "4.4",
+      "Fecha": "2020-08-14",
+      "Hasta": "2020-09-14",
+      "Tipo": "21"
+    },
+    {
+      "Titulo": "Operaciones reajustables en moneda nacional",
+      "SubTitulo": "De un año o más. Inferiores o iguales al equivalente de 2000 unidades de fomento",
+      "Valor": "4.69",
+      "Fecha": "2020-08-14",
+      "Hasta": "2020-09-14",
+      "Tipo": "24"
+    },
+    {
+      "Titulo": "Operaciones reajustables en moneda nacional",
+      "SubTitulo": "De un año o más. Superiores al equivalente de 2000 unidades de fomento",
+      "Valor": "4.88",
+      "Fecha": "2020-08-14",
+      "Hasta": "2020-09-14",
+      "Tipo": "22"
+    },
+    {
+      "Titulo": "Operaciones expresadas en moneda extranjera",
+      "SubTitulo": "Inferiores o iguales al equivalente de 2.000 unidades de fomento",
+      "Valor": "9.45",
+      "Fecha": "2020-08-14",
+      "Hasta": "2020-09-14",
+      "Tipo": "41"
+    },
+    {
+      "Titulo": "Operaciones expresadas en moneda extranjera",
+      "SubTitulo": "Superiores al equivalente de 2.000 unidades de fomento",
+      "Valor": "5.69",
+      "Fecha": "2020-08-14",
+      "Hasta": "2020-09-14",
+      "Tipo": "42"
+    },
+    {
+      "Titulo": "Operaciones no reajustables en moneda nacional 90 días o más",
+      "SubTitulo": "Superiores al equivalente de 5.000 unidades de fomento",
+      "Valor": "4.97",
+      "Fecha": "2020-08-14",
+      "Hasta": "2020-09-14",
+      "Tipo": "34"
+    }
+  ]
+}
