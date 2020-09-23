@@ -34,8 +34,12 @@ module SbifAPI
       url = generate_url(date)
 
       response = Faraday.get(url)
-
       json_response = JSON.parse(response.body)
+
+      if response.status == 404
+        raise ActionController::RoutingError, json_response['Mensaje']
+      end
+
       json_response['TMCs'].select { |tmc| tmc['Tipo'] == type }.first
     end
 
