@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class ApplicationController < ActionController::API
-  rescue_from StandardError do |exception|
+  rescue_from 'StandardError' do |exception|
     render json: {
       errors: [{
         status: 500,
@@ -10,7 +10,7 @@ class ApplicationController < ActionController::API
     }, status: :internal_server_error
   end
 
-  rescue_from ActiveModel::ValidationError do |exception|
+  rescue_from 'ActiveModel::ValidationError' do |exception|
     render json: {
       errors: [{
         status: 400,
@@ -19,7 +19,7 @@ class ApplicationController < ActionController::API
     }, status: :bad_request
   end
 
-  rescue_from ActionController::RoutingError do |exception|
+  rescue_from 'ActionController::RoutingError' do |exception|
     render json: {
       errors: [{
         status: 404,
