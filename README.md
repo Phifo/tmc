@@ -31,11 +31,17 @@ La aplicación está dockerizada por lo que solo se necesita utilizar docker-com
 docker-compose build
 docker-compose up
 ```
+
 La aplicación quedará disponible en `http://localhost:3000/api/v1/tmc`
 
 En caso de no tener instalado Docker se debe seguir los pasos estándar para ejecutar una aplicación en Ruby on Rails con Ruby 2.3.1 y MySQL 5.7.16
 
 ## Tests
+Primero crear base de datos en caso de que no exista
+```bash
+docker-compose run --rm web rails db:create
+```
+Correr tests
 ```bash
 docker-compose run --rm web rspec
 ```
