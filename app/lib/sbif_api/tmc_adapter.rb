@@ -8,9 +8,9 @@ module SbifAPI
 
     validates :loan_amount, presence: true, numericality: true
     validates :loan_term, presence: true, numericality: { only_integer: true }
-    validates :date, format: { with: /[0-9]{4}-[0-9]{2}-[0-9]{2}/ }
+    validates :date, format: { with: /\A[0-9]{4}-[0-9]{2}-[0-9]{2}\z/ }
 
-    def initialize(args)
+    def initialize(args = {})
       args.each { |name, value| instance_variable_set("@#{name}", value) }
     end
   end
